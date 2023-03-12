@@ -1,0 +1,93 @@
+*{
+    font-family: Garamond (serif)
+}
+
+
+header {
+    background-color:rgb(137, 117, 117);
+    width: 100%;
+    z-index: 10;
+    content: .1%;
+  }
+  
+ul {
+    margin: 30px auto;
+    padding: 20px 20px;
+    text-align: center;
+}
+  
+li {
+    color: rgb(238, 238, 238);
+    font-size: 23px;
+    font-weight: 300;
+    display: inline-block;
+    width: 150px;  
+}
+
+  h1{
+    font-size: 90px;
+    text-align: center;
+    margin: 0px;
+
+  }
+  
+  #byline{
+    font-size: 30px;
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 100px;
+  }
+
+  .propic{
+    width: auto; 
+    max-height: 400px; 
+   }
+  
+   .intro {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: rgb(101, 123, 116);
+   }
+
+   #about {
+  font-size: 20px;
+  padding-left: 20px;
+  }
+
+  * {
+    box-sizing: border-box;
+    ;
+  }
+  
+  .column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  
+  .imagerow{
+    content: "";
+    clear: both;
+    display: table;
+    background-color: aqua;
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+
+  .submissions{
+    background-color: brown;
+  }
+
+  .contact{
+    background: rebeccapurple;
+  }
+
+  #eva{
+    width: auto; 
+    max-height: 200px; 
+    margin: auto;
+    display: block;
+  }
+
+  button{}
