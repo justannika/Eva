@@ -5,7 +5,7 @@ let rotateDegreesButton = document.getElementById('rotateDegreesButton');
 
 function rotateEva(angle) {
     const eva = document.getElementById('eva');
-    eva.style.transform = 'rotate('+ angle +'deg)';
+    eva.style.transform = 'rotate('+ angle +'deg)';     //style refers to css
 }
 
 rotateLeftButton.addEventListener("click", onLeftButtonClick);
