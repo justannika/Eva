@@ -10,13 +10,13 @@ header {
     content: .1%;
   }
   
-ul {
+#nav{
     margin: 30px auto;
     padding: 20px 20px;
     text-align: center;
 }
   
-li {
+#nav li {
     color: rgb(238, 238, 238);
     font-size: 23px;
     font-weight: 300;
@@ -90,4 +90,17 @@ li {
     display: block;
   }
 
-  button{}
+  .favorites{ 
+    background-color: greenyellow;
+  }
+
+  ul {
+    list-style-type: none;
+  }
+
+
+
+
+
+
+  

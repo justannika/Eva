@@ -26,4 +26,10 @@ function onDegreesButtonClick() {
     let angleInput = document.getElementById('angle');
     let angle = angleInput.value;
     rotateEva(angle);
-}
+};
+
+
+let parentElement = document.getElementById('must-have').parentNode; // returns <ul> element
+let childElements = document.getElementById('favoriteThings').children; // returns an array of <li> elements
+
+
