@@ -28,8 +28,15 @@ function onDegreesButtonClick() {
     rotateEva(angle);
 };
 
+let changeColor = document.getElementById('changeColorButton');
 
-let parentElement = document.getElementById('must-have').parentNode; // returns <ul> element
-let childElements = document.getElementById('favoriteThings').children; // returns an array of <li> elements
+function changeBackgroundColor() { 
+    let favorites = document.getElementById('favorites');
+    let colorInput = document.getElementById('colorToChange');
+    let color = colorInput.value;
+    favorites.style.backgroundColor = color;
+       
+}
 
+changeColor.addEventListener("click", changeBackgroundColor);
 
